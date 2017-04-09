@@ -1,0 +1,119 @@
+
+
+body{
+	background-image:url(bj.jpg);
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+h1{
+	float: left;
+	width:200px;
+	height:80px;
+	margin:5px;
+	font-family: "楷体";
+	font-size:70px;
+	color:#408080;
+}
+
+p{
+	font-family: "楷体";
+}
+
+
+.game{
+	margin:0 auto;
+	width:380px;
+	height:600px;
+	padding-top: 30px;
+}
+
+.score{
+	float:left;
+	width:100px;
+	height:50px;
+	float:left;
+	margin:5px;
+	margin-top:25px;
+	margin-left: 20px;
+	background-color: #5CADAD;
+	font-size: 16px;
+	border-style: solid;
+	border-color: #4F9D9D;
+	font-family: "楷体";
+}
+
+.board{
+	width:360px;
+	height: 360px;
+	float:left;
+	margin:5px;
+	background-color:#4F9D9D;
+	padding:5px;
+}
+
+.cell{
+	width:80px;
+	height:80px;
+	margin:5px;
+	float:left;
+	background-color:#5CADAD;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.sub{
+	float:left;
+	margin-left: 140px;
+	width: 100px;
+	height:35px;
+	font-size: 20px;
+	background-color: #5CADAD;
+	font-family:"楷体";
+}
+
+#fail{
+	font-size: 60px;
+	width:360px;
+	height: 360px;
+	background-color: #5CADAD;
+	position: relative;
+	visibility: hidden;
+	opacity: 0.7;
+}
+
+#fail p{
+	position: absolute;
+	top:80px;
+	right: 120px;
+}
+
+#setkey{
+	top: 85px;
+	width: 400px;
+	height: 380px;
+	font-size: 30px;
+	background-color: #5CADAD;
+	position: relative;
+	visibility: visible;
+}
+
+#key{
+	position: absolute;
+	font-size: 20px;
+}
+
+.inkey{
+	position: absolute;
+	right: 50px;
+	top:110px;
+}
+
+th, td {
+ border:1px solid #ccc;
+ padding:2px;
+ text-align:center;
+}
+td {
+ cursor:pointer
+}
